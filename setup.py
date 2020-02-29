@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
       name='py_random_words',
-      version='0.2',
+      version='0.3',
       url='https://github.com/andreasonny83/py_random_words',
       license='MIT',
       author='andreasonny83',

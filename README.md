@@ -5,7 +5,7 @@
 To install, simply:
 
 ```bash
-$ pip3 install py_random_words
+$ pip install py_random_words
 ```
 
 ## Usage
@@ -27,11 +27,11 @@ print(rnd_word.get_word()) # dog
 $ python3 -m pip install --user --upgrade setuptools wheel
 
 # Now run this command from the same directory where setup.py is located
-$ python3 setup.py sdist bdist_wheel
+$ python3 setup.py sdist
 
 # Uploading the distribution archives
 $ python3 -m pip install --user --upgrade twine
-$ python3 -m twine upload dist/*
+$ twine upload dist/*
 ```
 
 Ref: https://packaging.python.org/tutorials/packaging-projects/#packaging-your-project
