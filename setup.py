@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
       name='py_random_words',
-      version='0.7.0',
+      version='0.8.0',
       packages=find_packages(exclude=['tests*']),
       url='https://github.com/andreasonny83/py_random_words',
       license='MIT',
@@ -15,4 +15,5 @@ setup(
       long_description=long_description,
       long_description_content_type='text/markdown',
       data_files=[('animals.json', ['py_random_words/animals.json'])],
+      include_package_data=True,
 )
