@@ -24,14 +24,13 @@ print(rnd_word.get_word()) # dog
 
 ```sh
 # Make sure you have the latest versions of setuptools and wheel installed
-$ python3 -m pip install --user --upgrade setuptools wheel
+$ python3 -m pip install --user --upgrade setuptools wheel twine
 
 # Now run this command from the same directory where setup.py is located
-$ python3 setup.py sdist bdist_wheel
+$ make build
 
 # Uploading the distribution archives
-$ python3 -m pip install --user --upgrade twine
-$ twine upload dist/*
+$ make release
 ```
 
 Ref: https://packaging.python.org/tutorials/packaging-projects/#packaging-your-project

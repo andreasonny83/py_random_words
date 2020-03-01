@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
       name='py_random_words',
-      version='0.6.0',
+      version='0.7.0',
       packages=find_packages(exclude=['tests*']),
       url='https://github.com/andreasonny83/py_random_words',
       license='MIT',
