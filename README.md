@@ -27,7 +27,7 @@ print(rnd_word.get_word()) # dog
 $ python3 -m pip install --user --upgrade setuptools wheel
 
 # Now run this command from the same directory where setup.py is located
-$ python3 setup.py sdist
+$ python3 setup.py sdist bdist_wheel
 
 # Uploading the distribution archives
 $ python3 -m pip install --user --upgrade twine
